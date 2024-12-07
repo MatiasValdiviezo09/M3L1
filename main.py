@@ -9,7 +9,7 @@ password = ""
 
 @app.route("/")
 def hello_world():
-    return  f'<h1>Bienvenido a mi Página Web usando Flask</h1> <a href="/datos_aleatorios"> Ir a ver los datos aleatorios</a>"<a href="/password"> Ir a generador de contraseñas</a>' 
+    return  f'<h1>Bienvenido a mi Página Web usando Flask</h1> <a href="/datos_aleatorios> Ir a ver los datos aleatorios</a>"<a href="/password"> Ir a generador de contraseñas</a>' 
 
 @app.route("/datos_aleatorios")
 def datosaleatorios():
