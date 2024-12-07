@@ -17,7 +17,7 @@ def datosaleatorios():
 
 @app.route("/password")
 def password():
-    password_length = 12  # Define the length of the password
+    password_length = 12 
     password = ''.join(random.choice(elements) for _ in range(password_length))
     return f'<h2>{password}</h2>'
 
